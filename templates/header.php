@@ -1,3 +1,12 @@
+<?php
+    session_start();
+    if( isset($_SESSION['session_id']) ){
+        $user = $_SESSION['user'];
+    }else{
+        header('location: login.php');
+    }
+    
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -40,10 +49,10 @@
         </ul>
         <ul class="nav navbar-nav navbar-right">
             <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Bienvenido Usuario <span class="caret"></span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Bienvenido <?php echo $user; ?> <span class="caret"></span></a>
             <ul class="dropdown-menu">
                 <li><a href="#">Perfil</a></li>
-                <li><a href="#">Cerrar Sesión</a></li>
+                <li><a href="logout.php">Cerrar Sesión</a></li>
             </ul>
             </li>
         </ul>
