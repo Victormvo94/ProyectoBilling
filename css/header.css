@@ -1,0 +1,49 @@
+.navbar-default {
+    background-color: #303c81;
+    border-color: #303c81;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    background-color: #303c81;
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    background-color: #303c81;
+    color: white;
+}
+
+.dropdown-menu {
+    background-color: #303c81;
+}
+
+.dropdown-menu>li>a {
+    background-color: #303c81;
+    color: white;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #303c81;
+}
+
+@media (max-width: 767px){
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a{
+        color: white;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{
+        color: white;
+    }
+}
+
+.navbar-brand{
+    padding: 10px 15px;
+}
