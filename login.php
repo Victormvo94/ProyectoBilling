@@ -82,7 +82,7 @@
                         <label for="password" class="text-white">Password:</label><br>
                         <input type="password" name="password" id="password" class="form-control">
                     </div>
-                    <div class="form-group" style="margin-left:36%;">
+                    <div class="form-group" style="margin-left:38%;">
                         <input type="submit" name="submit" class="btn btn-primary" value="Iniciar Sesión" style=" background-color: #303c81;">
                     </div>
                 </form>

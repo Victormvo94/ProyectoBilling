@@ -51,7 +51,7 @@
             <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Bienvenido <?php echo $user; ?> <span class="caret"></span></a>
             <ul class="dropdown-menu">
-                <li><a href="#">Perfil</a></li>
+                <!-- <li><a href="#">Perfil</a></li> -->
                 <li><a href="logout.php">Cerrar Sesión</a></li>
             </ul>
             </li>
